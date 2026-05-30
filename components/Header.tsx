@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="main-container inner flex items-center justify-between ">
       <Link  href="/"> 
-      <Image src="logo.svg" alt="Logo" width={132} height={40} />  </Link>
+      <Image src="/logo.svg" alt="Logo" width={132} height={40} />  </Link>
       <nav className="flex gap-6 ">
         <Link href="/" className={cn('nav-link', {'is-active': pathname=== '/', 'is-home': true})}>home</Link>
         <p>search modal</p>
